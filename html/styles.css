@@ -1,0 +1,44 @@
+
+ 
+             /* All CSS styles goes in here */
+             
+             h2, h3{font-size: larger; /* Internal CSS styles, multiple elements can be added */
+                color: green;       /* Better to use class style */
+                text-align: left;
+
+            }
+
+
+            /* .class is used for multiple elements, used most it makes shorter html code */
+            .yb{
+                color: red;
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+            }
+
+            /* id is used for UNIQUE elements */
+            #hf{
+            color: greenyellow;
+            background-color: blue;
+            font-size: xx-large;
+
+            }
+
+            /* All the p elements will be formatted with this */
+            p{
+                color: rgb(6, 1, 20);
+                font-family: monospace;
+            }
+            /* if there is no inline style, internal will effect */
+            body{
+                background-color:rgb(160, 211, 226);
+                color:brown;
+                background-image: url(https://static5.depositphotos.com/1000580/501/i/600/depositphotos_5019819-stock-photo-sky-background.jpg);
+                background-repeat: no-repeat;
+            
+            }
+            table,td,th{
+                font-size: 50px;
+                border-style: solid;
+                border-color: red;
+            }
