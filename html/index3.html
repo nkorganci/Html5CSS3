@@ -117,12 +117,30 @@
     <h1>DROP DOWNS</h1>
     <form>
       <label>CHOOSE A CAR</label><br />
-      <select multiple>
+      <select multiple size="3">
         <option>grape</option>
         <option selected>grape1</option>
         <option>grape2</option>
         <option>grape3</option>
       </select>
+    </form>
+    <form>
+      <label>Select birthday</label><br />
+      <input type="date" /><br />
+      <button>select</button><br />
+      <label>Select your favourite color</label>
+      <input type="color" name="color" /><br />
+      <button
+        style="
+          color: blueviolet;
+          border: 0.9mm solid;
+          background-color: rgb(76, 204, 119);
+        "
+        type="button"
+        onclick="alert('warning')"
+      >
+        CLICK ME
+      </button>
     </form>
   </body>
 </html>
