@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/">
   </head>
   <body>
     <form action="kaydet.php">
       <!-- I can connect label and input with for&id -->
-      <label for="text" ">Name</label>
-      <input id="text" placeholder="write your name" /><br>
+      <label for="text" ">Name1</label>
+      <input class = "input" id="text" placeholder="write your name" /><br>
 <!-- label and input are inline CSS attributes -->
 
-      <label>Name</label>
+      <label>Name2</label>
       <input /><br />
 
       <label> phone</label>
-      <input type="number" /><br />
+      <input type="number" max="200" min="22" /><br />
       <label>Url</label>
-      <input type="url" />
+      <input type="url" /><br>
+
+      <label for="pass">password</label>
+      <input type="password" id="pass" placeholder="write your password">
+      
     </form>
   </body>
 </html>
