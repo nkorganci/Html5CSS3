@@ -1,0 +1,47 @@
+h1 {
+  color: red;
+  font-size: xx-large;
+  background-color: aquamarine;
+  text-align: center;
+}
+h2,
+h6 {
+  color: red;
+  font-size: xx-large;
+  background-color: rgb(255, 127, 127);
+}
+p {
+  color: green;
+  margin: auto;
+  padding: 1cm;
+}
+.yb {
+  color: rgb(0, 255, 42);
+  top: 4in;
+}
+
+#hf {
+  color: brown;
+}
+body {
+  color: rgb(236, 25, 191);
+  background-color: bisque;
+
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY0oJ4et5-iog-RWvNVhmQ3an2PaKi0TxSlg&usqp=CAU");
+  background-repeat: no-repeat;
+}
+
+.img {
+  color: blueviolet;
+  border: 0.2cm solid;
+  display: flex;
+  border-radius: 300px;
+  opacity: 50%;
+}
+
+iframe {
+  width: 100%;
+  height: 300%;
+  border-style: solid;
+  border-width: 0.5cm;
+}
