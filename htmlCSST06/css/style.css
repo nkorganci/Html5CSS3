@@ -28,7 +28,44 @@ img {
   background-color: rgb(172, 214, 73);
   width: 300px;
 }
+/* div bottom can be written as div.bottom to be more specific, otherwise you can not use bottom in other places */
+.div.bottom {
+  background-image: linear-gradient(rgb(240, 231, 231), green);
+  width: 400px;
+}
 .bottom {
   background-image: linear-gradient(rgb(240, 231, 231), green);
   width: 400px;
+}
+
+.mydiv {
+  /* float adds block divs next to each other */
+  float: left;
+  margin-top: 20px;
+  width: 50px;
+}
+.mydiv.yellow {
+  /* percentage % separate region proportinally */
+  width: 30%;
+  background-color: yellow;
+}
+.mydiv.red {
+  width: 20%;
+  background-color: red;
+}
+.mydiv.green {
+  width: 40%;
+  background-color: green;
+}
+.mydiv.blue {
+  width: 5%;
+  background-color: blue;
+}
+.mydiv.purple {
+  width: 100%;
+  background-color: rgb(184, 10, 175);
+}
+/* was supposed to change give space between two lines or div */
+.clearfix {
+  clear: both;
 }

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* top, right, bottom, left */
+  margin: 40px 40px 20px 50px;
+  /* margin 20px 50px  top-bottom, right-left */
+  font-size: 40px;
+  text-align: center;
+  color: black;
+}
+.header {
+  color: antiquewhite;
+  height: 40px;
+  background-color: red;
+  padding: 50px;
+  margin-bottom: 10px;
+}
+
+.nav {
+  padding: 10px;
+  background-color: blue;
+}
+.main {
+  float: left;
+  width: 75%;
+  height: 500px;
+  background-color: antiquewhite;
+}
+.aside {
+  float: left;
+  background-color: yellow;
+  width: 25%;
+  height: 50px;
+}
+.footer {
+  background-color: bisque;
+}
