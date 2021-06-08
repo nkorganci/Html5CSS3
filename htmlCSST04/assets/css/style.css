@@ -34,3 +34,8 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: rgb(202, 151, 8);
 }
+
+.input {
+  margin-left: 20px;
+  width: 200px;
+}
