@@ -5,28 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/htmlCSST04/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">    <link rel="stylesheet" href="/htmlCSST04/assets/css/style.css">
   </head>
   <body>
+ 
     <form action="kaydet.php">
       <!-- I can connect label and input with for&id -->
-      <label for="text" ">Name1</label>
+      <label class="input" for="text" ">Name1</label>
       <input class = "input" id="text" placeholder="write your name" /><br>
 <!-- label and input are inline CSS attributes -->
 
-      <label>Name2</label>
+      <label class="align">Name2</label>
       <input /><br />
 
-      <label> phone</label>
+      <label class="align"> phone</label>
       <input type="number" max="200" min="22" /><br />
       <label>Url</label>
       <input type="url" /><br>
 
-      <label for="pass">password</label>
+      <label class="align"for="pass">password</label>
       <input required="" type="password" id="pass" placeholder="write your password">
       
       <input type="button" value="save">
       <input type="submit" value="submit1"><br>
+      <i class="far fa-save"></i>
 
       <label for="number-old">How old are you</label>
       <input class="input"
@@ -44,6 +49,31 @@
     </select>
       <br>
 
-    <textarea name ="w3review" rows="4" cols="50">Text</textarea>
+    <textarea name ="w3review" rows="4" cols="50">Text</textarea><br>
+
+    <button 
+    type="submit"
+    class="btn"
+    >Submit</button>
+
+
+
+    <label class="label">home</label>
+    <input class="label" type="text">
+    <label class="label">home</label>
+    <input class="label" type="text">
+    <i class="far fa-save"></i>
+    
+    <button>save <i class="far fa-save"></i></button>
+    <br>
+    <br>
+    <br>
+    <textarea rows="22" cols="22"></textarea>
+
+    <button 
+    type="reset"
+    class="btn"
+    >clear</button>
+
   </body>
 </html>
