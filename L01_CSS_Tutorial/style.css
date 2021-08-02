@@ -1,0 +1,6 @@
+ div {
+    -webkit-box-shadow: 19px 13px 15px 5px rgba(103,152,255,0.95); 
+box-shadow: 19px 13px 15px 5px rgba(103,152,255,0.95);
+/* width: 300px;
+border: 2px solid red; */
+}
